@@ -99,3 +99,6 @@ body{
   .all{
     transition: 1.50s;
   }
+  @media only screen and (max-device-width:770px){
+    
+  }

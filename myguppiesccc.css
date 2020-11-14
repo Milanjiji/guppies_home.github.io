@@ -247,19 +247,7 @@ nav a:hover{
   display:none;
 }
 
-.ppl{
-  
-  margin-top:10px;
-  padding:0px;
-  width:100%;
-  text-align:left;
-  padding:10px;
-  background-color: gold;
-}
 
-.ppo a{
-  text-decoration:none;
-}
 
 .gtr h2{
   margin:10px;
@@ -742,7 +730,17 @@ nav a:hover{
   border-radius:10px;
   
 }
-
+.ppo {
+  background-color: gold;
+  
+  padding-left: 10px;
+  width:95%;
+  margin-bottom:20px;
+  font-size:30px;
+}
+.ppo a{
+  text-decoration:none;
+}
 
 .top2 a{
   margin-top:60px;
@@ -780,6 +778,8 @@ nav{
 }
 
 .startt h1{
+   
+  
   text-align:left;
   margin-top:0px;
   padding-top:250px;
@@ -841,6 +841,10 @@ background-size:2180px 790px;
 .heade a{
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.wrap a:hover{  background-color:white; 
+  padding:15px;
+  border-radius:none;
+}
 
 .wrap a{
   background-color:rgb(189, 255, 252);
@@ -848,8 +852,271 @@ background-size:2180px 790px;
 }
 
 
-.wrap a:hover{
-  background-color:white;
-  padding:15px;
-  border-radius:none;
+@media only screen and (max-device-width:770px){
+  
+    .allsection{
+      margin-top:200px;
+      
+      width:150%;
+      height:550px;
+      background-image:url(./img/background.jpeg);
+      background-repeat: no-repeat;
+      background-size:900px 500px;
+      background-position-x: right;
+      background-position-y: center;
+    }
+
+    .section{
+      
+      width:30%;
+      
+      padding-top:100px;
+      padding-bottom:100px;  
+
+
+    }
+  .section h1{
+    background-color:white;
+    font-size:90px;
+    padding-left:50px;
+    font-family:purisa,oblique;
+    font-weight:900;
+  }
+  .heade{
+    width:140%;
+    height:550px;
+    background-color:white;
+    box-shadow:20px 20px 20px rgb(107, 103, 103);
+    border-left: 5px rgb(97, 97, 97) solid;
+    border-top: 5px rgb(97, 97, 97) solid;
+  }
+  .heade h1{
+    font-size:70px;
+    width:500px;
+    padding-left:10px;
+    background-color:yellow;
+    box-shadow:10px 10px 10px rgb(107, 103, 103);
+  }
+  .heade p{
+    font-size:40px;
+  }
+  .heade a{
+    font-size:40px;
+  }
+  .clk p{
+    width:100%;
+    font-size:30px;
+    padding:10px;
+  }
+  .ppo{
+    width:145%;
+    font-size:50px;
+    
+  }
+
+  .variety h2{
+    box-shadow:20px 20px 20px grey;
+    width:60%;
+    padding-left:800px;
+    padding-top:170px;
+    padding-bottom:170px;
+    font-size:50px;
+    padding-right:0px;
+    background-size:60% 400px;
+  }
+  .variety2 h2{
+    box-shadow:20px 20px 20px grey;
+    width:58%;
+    padding-left:800px;
+    padding-top:170px;
+    padding-bottom:170px;
+    font-size:50px;
+    padding-right:0px;
+    background-size:60% 460px;
+  }
+  .variety3 h2{
+    box-shadow:20px 20px 20px grey;
+    width:56%;
+    padding-left:800px;
+    padding-top:170px;
+    padding-bottom:170px;
+    font-size:50px;
+    padding-right:0px;
+    background-size:60% 400px;
+  }
+  .variety4 h2{
+    box-shadow:20px 20px 20px grey;
+    width:58%;
+    padding-left:800px;
+    padding-top:170px;
+    padding-bottom:170px;
+    font-size:50px;
+    padding-right:0px;
+    background-size:60% 400px;
+  }
+
+  .see{
+    font-size:40px;
+  }
+  .see a{
+    font-size:40px;
+  }
+  .medic1 h2{
+   box-shadow:20px 20px 20px grey;
+    width:58%;
+    padding-left:800px;
+    padding-top:170px;
+    padding-bottom:170px;
+    font-size:50px;
+    padding-right:0px;
+    background-size:60% 400px;
+  }
+  
+  .medic2 h2{
+    box-shadow:20px 20px 20px grey;
+    width:52%;
+    padding-left:800px;
+    padding-top:170px;
+    padding-bottom:170px;
+    font-size:50px;
+    padding-right:0px;
+    background-size:60% 400px;
+  }.medic3 h2{
+    box-shadow:20px 20px 20px grey;
+    width:55%;
+    padding-left:800px;
+    padding-top:170px;
+    padding-bottom:170px;
+    font-size:50px;
+    padding-right:0px;
+    background-size:60% 400px;
+  }
+  .food1 h2{
+    box-shadow:20px 20px 20px grey;
+    width:58%;
+    padding-left:800px;
+    padding-top:170px;
+    padding-bottom:170px;
+    font-size:50px;
+    padding-right:0px;
+    background-size:60% 400px;
+  }.food2 h2{
+    box-shadow:20px 20px 20px grey;
+    width:61%;
+    padding-left:800px;
+    padding-top:170px;
+    padding-bottom:170px;
+    font-size:50px;
+    padding-right:0px;
+    background-size:60% 400px;
+  }.food3 h2{
+    box-shadow:20px 20px 20px grey;
+    width:58%;
+    padding-left:800px;
+    padding-top:170px;
+    padding-bottom:170px;
+    font-size:50px;
+    padding-right:0px;
+    background-size:60% 400px;
+  }
+  .accs h2{
+    box-shadow:20px 20px 20px grey;
+    width:63%;
+    padding-left:800px;
+    padding-top:170px;
+    padding-bottom:170px;
+    font-size:50px;
+    padding-right:0px;
+    background-size:60% 400px;
+  }
+  .accs1 h2{
+    box-shadow:20px 20px 20px grey;
+    width:64%;
+    padding-left:800px;
+    padding-top:170px;
+    padding-bottom:170px;
+    font-size:50px;
+    padding-right:0px;
+    background-size:60% 400px;
+  }
+  .accs2 h2{
+    box-shadow:20px 20px 20px grey;
+    width:59%;
+    padding-left:800px;
+    padding-top:170px;
+    padding-bottom:170px;
+    font-size:50px;
+    padding-right:0px;
+    background-size:60% 400px;
+  }
+  .ig{
+    width:150%;
+    border:none;
+    
+  }
+  .ig button{
+    font-size:60px;
+    width:100%;
+    border:none;
+    background-color:aqua;
+  }
+  .lastbtn button{
+    background-color:aqua;
+    font-size:50px;
+    margin:10px 10px;
+    width:60%;
+    border:none;
+    border-radius:10px;
+  }
+  
+  .gta button{
+    
+    width:145%;
+    height:500px;
+    background-size:70% 500px;
+    
+  }
+  .gta h3{
+    padding-left:1000px;
+    font-size:60px;
+    color:black;
+    text-align:right;
+    padding-top:100px;
+    
+    margin-right:0px;
+  }
+  nav{
+    left:120px;
+    height:150px;
+  }
+
+  nav ul{
+    margin-right:15%;
+    margin-top:30px;
+  }
+  nav ul li a{
+    
+    font-size:40px;
+  }
+  #open{
+    padding-top:5px;
+    padding-bottom:15px;
+    font-size:90px;
+    height:170px;
+    width:100px;
+  }
+  .menu .first{
+    margin-top:200px;
+  }
+  .menu a{
+    font-size:70px;
+    padding:50px;
+    font-family:manjari;
+  }
+   .menu .close{
+    font-size:150px;
+    font-weight:bolder;
+    padding-bottom:0px;
+
+  }
 }
